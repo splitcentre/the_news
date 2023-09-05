@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <ImageView
+        android:id="@+id/pict"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/axa"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AirAsia X To Lease Another Airbus A330-300 Ahead Of Busy Winter"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/pict"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <TextView
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/Title"
+        android:text="Noting a credible surge in seat capacity for this year's second quarter, Malaysian long-haul low-cost carrier AirAsia X flew high in profits with more than four times the revenue earned during the same quarter last year. As demand for air travel is expected to surge for the year-end holiday season, the airline is looking to increase capacities further.
+        During the second quarter of this year, the budget carrier earned an impressive revenue of about RM512.9 million ($110.11 million), alongside an equally outstanding net profit of RM5.5 million ($1.18 million). These positives were a stunning turnaround from the net losses earned during the same period last year.
+
+Compared to the mere five aircraft in active operation last year, a more comprehensive fleet composition this year after the gradual regrowing process began in December significantly contributed as a critical factor in driving AirAsia X's soaring recovery as the airline's seat capacity grew over 26 times year-on-year to approximately 818,422 seats flown.
+
+"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"/>
+    
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        app:layout_constraintTop_toBottomOf="@id/words"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
